@@ -22,7 +22,7 @@ def ask_image_model(user_input: str, image_input) -> dict:
     )
 
     payload = {
-        "model": "model:latest",
+        "model": "qwen2.5vl:7b",
         "system": system_prompt,
         "prompt": user_input,
         "image": image_input,
